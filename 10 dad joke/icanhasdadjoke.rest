@@ -1,0 +1,2 @@
+GET https://icanhasdadjoke.com
+Accept: application/json

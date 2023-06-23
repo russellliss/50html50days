@@ -1,0 +1,33 @@
+/* https://fonts.google.com/specimen/Roboto */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+* {
+	box-sizing: border-box; /* Adding border or padding, it does not affect the width */
+}
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh; /* 100% of the view port */
+	overflow: hidden; /* Hide scroll bars */
+	margin: 0;
+}
+
+.bg {
+	background: url('https://britishheritage.com/uploads/article/2019/5/1831/Stone_Henge.jpg?t=1557480822')
+		no-repeat center center/cover;
+	position: absolute;
+	top: -30;
+	left: -30;
+	width: calc(100vw + 60px);
+	height: calc(100vh + 60px);
+	z-index: -1;
+	filter: blur(0px);
+}
+
+.loading-text {
+	font-size: 50px;
+	color: #ffffff;
+}
